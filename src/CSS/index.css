@@ -101,21 +101,21 @@ nav {
 .background svg {
   fill: var(--primary-color);
   width: 100vw;
-  position: absolute;
-  top: 49.46%;
-  left: 0;
-  transform: translate(-50%, -50%);
-}
 
-.center-wrapper {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 0;
   transform: translate(-50%, -50%);
 }
 
 #home-logo {
   width: 100vw;
+  fill: var(--tertiary-color);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*
