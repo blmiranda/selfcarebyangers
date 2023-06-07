@@ -1,28 +1,42 @@
-@media only screen and (min-width: 720px) {
-  #creations h2 {
-    font-size: 12vw;
-  }
-
-  #services {
-    gap: 40px;
-  }
-
-  #services-header h2 {
-    font-size: 12vw;
-  }
-
-  .service {
-    width: 500px;
+@media only screen and (max-width: 650px) {
+  .service-cards {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 800px) {
+  #home-logo {
+    width: 85vw;
+  }
+}
+
+@media only screen and (max-width: 850px) {
   #creations {
-    height: 600px;
-    gap: 100px;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .creations-photos {
-    transform: scale(1.4);
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  #creations {
+    flex-direction: column;
+  }
+
+  #creations h2::after {
+    width: 40%;
+    height: 3px;
+
+    top: 100%;
+    right: 0%;
+    transform: none;
+  }
+
+  .creations-photos {
+    transform: scale(0.7);
   }
 }
